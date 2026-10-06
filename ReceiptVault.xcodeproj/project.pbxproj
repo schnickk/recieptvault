@@ -1,0 +1,961 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD9828F83074FFC8005CED86 /* ReceiptVaultShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AD9828EE3074FFC8005CED86 /* ReceiptVaultShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD9829143074FFF6005CED86 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9829133074FFF6005CED86 /* WidgetKit.framework */; };
+		AD9829163074FFF6005CED86 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9829153074FFF6005CED86 /* SwiftUI.framework */; };
+		AD9829253074FFF7005CED86 /* ReceiptVaultWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AD9829113074FFF6005CED86 /* ReceiptVaultWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD98284B3074AEF8005CED86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9828353074AEF6005CED86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD98283C3074AEF6005CED86;
+			remoteInfo = ReceiptVault;
+		};
+		AD9828553074AEF8005CED86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9828353074AEF6005CED86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD98283C3074AEF6005CED86;
+			remoteInfo = ReceiptVault;
+		};
+		AD9828F63074FFC8005CED86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9828353074AEF6005CED86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9828ED3074FFC8005CED86;
+			remoteInfo = ReceiptVaultShare;
+		};
+		AD9829233074FFF7005CED86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9828353074AEF6005CED86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9829103074FFF6005CED86;
+			remoteInfo = ReceiptVaultWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD9828FD3074FFC8005CED86 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AD9829253074FFF7005CED86 /* ReceiptVaultWidgetExtension.appex in Embed Foundation Extensions */,
+				AD9828F83074FFC8005CED86 /* ReceiptVaultShare.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD98283D3074AEF6005CED86 /* ReceiptVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD98284A3074AEF8005CED86 /* ReceiptVaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptVaultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9828543074AEF8005CED86 /* ReceiptVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9828EE3074FFC8005CED86 /* ReceiptVaultShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ReceiptVaultShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9829113074FFF6005CED86 /* ReceiptVaultWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ReceiptVaultWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9829133074FFF6005CED86 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AD9829153074FFF6005CED86 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AD98292A3074FFFB005CED86 /* ReceiptVaultWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReceiptVaultWidgetExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AD9828F93074FFC8005CED86 /* Exceptions for "ReceiptVaultShare" folder in "ReceiptVaultShare" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AD9828ED3074FFC8005CED86 /* ReceiptVaultShare */;
+		};
+		AD9829263074FFF7005CED86 /* Exceptions for "ReceiptVaultWidget" folder in "ReceiptVaultWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AD9829103074FFF6005CED86 /* ReceiptVaultWidgetExtension */;
+		};
+		AD98294A3074FFFF005CED86 /* Exceptions for "ReceiptVault" folder in "ReceiptVaultShare" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Shared/ReceiptInboxStore.swift,
+				Shared/SharedContainer.swift,
+				Shared/UnfiledReceipt.swift,
+			);
+			target = AD9828ED3074FFC8005CED86 /* ReceiptVaultShare */;
+		};
+		AD98294B3074FFFF005CED86 /* Exceptions for "ReceiptVault" folder in "ReceiptVault" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AD98283C3074AEF6005CED86 /* ReceiptVault */;
+		};
+		AD98294C3074FFFF005CED86 /* Exceptions for "ReceiptVault" folder in "ReceiptVaultWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Shared/AppLink.swift,
+				Shared/SharedContainer.swift,
+				Shared/WarrantyKind.swift,
+				Shared/WarrantySnapshot.swift,
+				Shared/WarrantySnapshotFile.swift,
+			);
+			target = AD9829103074FFF6005CED86 /* ReceiptVaultWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AD98283F3074AEF6005CED86 /* ReceiptVault */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AD98294B3074FFFF005CED86 /* Exceptions for "ReceiptVault" folder in "ReceiptVault" target */,
+				AD98294A3074FFFF005CED86 /* Exceptions for "ReceiptVault" folder in "ReceiptVaultShare" target */,
+				AD98294C3074FFFF005CED86 /* Exceptions for "ReceiptVault" folder in "ReceiptVaultWidgetExtension" target */,
+			);
+			path = ReceiptVault;
+			sourceTree = "<group>";
+		};
+		AD98284D3074AEF8005CED86 /* ReceiptVaultTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReceiptVaultTests;
+			sourceTree = "<group>";
+		};
+		AD9828573074AEF8005CED86 /* ReceiptVaultUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReceiptVaultUITests;
+			sourceTree = "<group>";
+		};
+		AD9828EF3074FFC8005CED86 /* ReceiptVaultShare */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AD9828F93074FFC8005CED86 /* Exceptions for "ReceiptVaultShare" folder in "ReceiptVaultShare" target */,
+			);
+			path = ReceiptVaultShare;
+			sourceTree = "<group>";
+		};
+		AD9829173074FFF6005CED86 /* ReceiptVaultWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AD9829263074FFF7005CED86 /* Exceptions for "ReceiptVaultWidget" folder in "ReceiptVaultWidgetExtension" target */,
+			);
+			path = ReceiptVaultWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD98283A3074AEF6005CED86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9828473074AEF8005CED86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9828513074AEF8005CED86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9828EB3074FFC8005CED86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD98290E3074FFF6005CED86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9829163074FFF6005CED86 /* SwiftUI.framework in Frameworks */,
+				AD9829143074FFF6005CED86 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD9828343074AEF6005CED86 = {
+			isa = PBXGroup;
+			children = (
+				AD98292A3074FFFB005CED86 /* ReceiptVaultWidgetExtension.entitlements */,
+				AD98283F3074AEF6005CED86 /* ReceiptVault */,
+				AD98284D3074AEF8005CED86 /* ReceiptVaultTests */,
+				AD9828573074AEF8005CED86 /* ReceiptVaultUITests */,
+				AD9828EF3074FFC8005CED86 /* ReceiptVaultShare */,
+				AD9829173074FFF6005CED86 /* ReceiptVaultWidget */,
+				AD9829123074FFF6005CED86 /* Frameworks */,
+				AD98283E3074AEF6005CED86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD98283E3074AEF6005CED86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD98283D3074AEF6005CED86 /* ReceiptVault.app */,
+				AD98284A3074AEF8005CED86 /* ReceiptVaultTests.xctest */,
+				AD9828543074AEF8005CED86 /* ReceiptVaultUITests.xctest */,
+				AD9828EE3074FFC8005CED86 /* ReceiptVaultShare.appex */,
+				AD9829113074FFF6005CED86 /* ReceiptVaultWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD9829123074FFF6005CED86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD9829133074FFF6005CED86 /* WidgetKit.framework */,
+				AD9829153074FFF6005CED86 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD98283C3074AEF6005CED86 /* ReceiptVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD98285E3074AEF8005CED86 /* Build configuration list for PBXNativeTarget "ReceiptVault" */;
+			buildPhases = (
+				AD9828393074AEF6005CED86 /* Sources */,
+				AD98283A3074AEF6005CED86 /* Frameworks */,
+				AD98283B3074AEF6005CED86 /* Resources */,
+				AD9828FD3074FFC8005CED86 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9828F73074FFC8005CED86 /* PBXTargetDependency */,
+				AD9829243074FFF7005CED86 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD98283F3074AEF6005CED86 /* ReceiptVault */,
+			);
+			name = ReceiptVault;
+			packageProductDependencies = (
+			);
+			productName = ReceiptVault;
+			productReference = AD98283D3074AEF6005CED86 /* ReceiptVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD9828493074AEF8005CED86 /* ReceiptVaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9828613074AEF8005CED86 /* Build configuration list for PBXNativeTarget "ReceiptVaultTests" */;
+			buildPhases = (
+				AD9828463074AEF8005CED86 /* Sources */,
+				AD9828473074AEF8005CED86 /* Frameworks */,
+				AD9828483074AEF8005CED86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD98284C3074AEF8005CED86 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD98284D3074AEF8005CED86 /* ReceiptVaultTests */,
+			);
+			name = ReceiptVaultTests;
+			packageProductDependencies = (
+			);
+			productName = ReceiptVaultTests;
+			productReference = AD98284A3074AEF8005CED86 /* ReceiptVaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD9828533074AEF8005CED86 /* ReceiptVaultUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9828643074AEF8005CED86 /* Build configuration list for PBXNativeTarget "ReceiptVaultUITests" */;
+			buildPhases = (
+				AD9828503074AEF8005CED86 /* Sources */,
+				AD9828513074AEF8005CED86 /* Frameworks */,
+				AD9828523074AEF8005CED86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9828563074AEF8005CED86 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD9828573074AEF8005CED86 /* ReceiptVaultUITests */,
+			);
+			name = ReceiptVaultUITests;
+			packageProductDependencies = (
+			);
+			productName = ReceiptVaultUITests;
+			productReference = AD9828543074AEF8005CED86 /* ReceiptVaultUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD9828ED3074FFC8005CED86 /* ReceiptVaultShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9828FA3074FFC8005CED86 /* Build configuration list for PBXNativeTarget "ReceiptVaultShare" */;
+			buildPhases = (
+				AD9828EA3074FFC8005CED86 /* Sources */,
+				AD9828EB3074FFC8005CED86 /* Frameworks */,
+				AD9828EC3074FFC8005CED86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AD9828EF3074FFC8005CED86 /* ReceiptVaultShare */,
+			);
+			name = ReceiptVaultShare;
+			packageProductDependencies = (
+			);
+			productName = ReceiptVaultShare;
+			productReference = AD9828EE3074FFC8005CED86 /* ReceiptVaultShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AD9829103074FFF6005CED86 /* ReceiptVaultWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9829273074FFF7005CED86 /* Build configuration list for PBXNativeTarget "ReceiptVaultWidgetExtension" */;
+			buildPhases = (
+				AD98290D3074FFF6005CED86 /* Sources */,
+				AD98290E3074FFF6005CED86 /* Frameworks */,
+				AD98290F3074FFF6005CED86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AD9829173074FFF6005CED86 /* ReceiptVaultWidget */,
+			);
+			name = ReceiptVaultWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = ReceiptVaultWidgetExtension;
+			productReference = AD9829113074FFF6005CED86 /* ReceiptVaultWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD9828353074AEF6005CED86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					AD98283C3074AEF6005CED86 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					AD9828493074AEF8005CED86 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = AD98283C3074AEF6005CED86;
+					};
+					AD9828533074AEF8005CED86 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = AD98283C3074AEF6005CED86;
+					};
+					AD9828ED3074FFC8005CED86 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					AD9829103074FFF6005CED86 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = AD9828383074AEF6005CED86 /* Build configuration list for PBXProject "ReceiptVault" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD9828343074AEF6005CED86;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD98283E3074AEF6005CED86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD98283C3074AEF6005CED86 /* ReceiptVault */,
+				AD9828493074AEF8005CED86 /* ReceiptVaultTests */,
+				AD9828533074AEF8005CED86 /* ReceiptVaultUITests */,
+				AD9828ED3074FFC8005CED86 /* ReceiptVaultShare */,
+				AD9829103074FFF6005CED86 /* ReceiptVaultWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD98283B3074AEF6005CED86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9828483074AEF8005CED86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9828523074AEF8005CED86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9828EC3074FFC8005CED86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD98290F3074FFF6005CED86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD9828393074AEF6005CED86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9828463074AEF8005CED86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9828503074AEF8005CED86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9828EA3074FFC8005CED86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD98290D3074FFF6005CED86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD98284C3074AEF8005CED86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD98283C3074AEF6005CED86 /* ReceiptVault */;
+			targetProxy = AD98284B3074AEF8005CED86 /* PBXContainerItemProxy */;
+		};
+		AD9828563074AEF8005CED86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD98283C3074AEF6005CED86 /* ReceiptVault */;
+			targetProxy = AD9828553074AEF8005CED86 /* PBXContainerItemProxy */;
+		};
+		AD9828F73074FFC8005CED86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9828ED3074FFC8005CED86 /* ReceiptVaultShare */;
+			targetProxy = AD9828F63074FFC8005CED86 /* PBXContainerItemProxy */;
+		};
+		AD9829243074FFF7005CED86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9829103074FFF6005CED86 /* ReceiptVaultWidgetExtension */;
+			targetProxy = AD9829233074FFF7005CED86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD98285C3074AEF8005CED86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z992574579;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD98285D3074AEF8005CED86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z992574579;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD98285F3074AEF8005CED86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReceiptVault/ReceiptVault.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z992574579;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceiptVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Receipt Vault";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucastohmeh.ReceiptVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD9828603074AEF8005CED86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReceiptVault/ReceiptVault.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z992574579;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceiptVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Receipt Vault";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucastohmeh.ReceiptVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD9828623074AEF8005CED86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z992574579;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucastohmeh.ReceiptVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiptVault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReceiptVault";
+			};
+			name = Debug;
+		};
+		AD9828633074AEF8005CED86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z992574579;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucastohmeh.ReceiptVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiptVault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReceiptVault";
+			};
+			name = Release;
+		};
+		AD9828653074AEF8005CED86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z992574579;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucastohmeh.ReceiptVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceiptVault;
+			};
+			name = Debug;
+		};
+		AD9828663074AEF8005CED86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z992574579;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucastohmeh.ReceiptVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceiptVault;
+			};
+			name = Release;
+		};
+		AD9828FB3074FFC8005CED86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ReceiptVaultShare/ReceiptVaultShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z992574579;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceiptVaultShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Receipt Vault";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucastohmeh.ReceiptVault.ReceiptVaultShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD9828FC3074FFC8005CED86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ReceiptVaultShare/ReceiptVaultShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z992574579;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceiptVaultShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Receipt Vault";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucastohmeh.ReceiptVault.ReceiptVaultShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD9829283074FFF7005CED86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ReceiptVaultWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z992574579;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceiptVaultWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Receipt Vault";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucastohmeh.ReceiptVault.ReceiptVaultWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD9829293074FFF7005CED86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ReceiptVaultWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z992574579;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReceiptVaultWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Receipt Vault";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucastohmeh.ReceiptVault.ReceiptVaultWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD9828383074AEF6005CED86 /* Build configuration list for PBXProject "ReceiptVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD98285C3074AEF8005CED86 /* Debug */,
+				AD98285D3074AEF8005CED86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD98285E3074AEF8005CED86 /* Build configuration list for PBXNativeTarget "ReceiptVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD98285F3074AEF8005CED86 /* Debug */,
+				AD9828603074AEF8005CED86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9828613074AEF8005CED86 /* Build configuration list for PBXNativeTarget "ReceiptVaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9828623074AEF8005CED86 /* Debug */,
+				AD9828633074AEF8005CED86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9828643074AEF8005CED86 /* Build configuration list for PBXNativeTarget "ReceiptVaultUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9828653074AEF8005CED86 /* Debug */,
+				AD9828663074AEF8005CED86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9828FA3074FFC8005CED86 /* Build configuration list for PBXNativeTarget "ReceiptVaultShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9828FB3074FFC8005CED86 /* Debug */,
+				AD9828FC3074FFC8005CED86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9829273074FFF7005CED86 /* Build configuration list for PBXNativeTarget "ReceiptVaultWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9829283074FFF7005CED86 /* Debug */,
+				AD9829293074FFF7005CED86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD9828353074AEF6005CED86 /* Project object */;
+}
