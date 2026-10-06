@@ -190,8 +190,4 @@ Apple documentation I used:
 
 Consumer law: ACCC guidance on consumer guarantees and warranties, and CHOICE articles on extended warranties. *(TODO: add exact links and access dates.)*
 
-## AI use
-
-*(TODO: edit this so it matches how I actually used AI.)*
-
 I used Claude Code (Anthropic) as a coding assistant on this project. I gave it the names, rules and architecture from my Required Document and worked through the app in phases. It wrote code, tests and a first draft of this README, and ran the builds and tests. I reviewed and tested each phase, made the design decisions in my Required Document, and changed things that didn't match what I wanted.
